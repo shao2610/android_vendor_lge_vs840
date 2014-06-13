@@ -106,10 +106,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
 	vendor/lge/vs840/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so
 
-# Camera
-PRODUCT_COPY_FILES += \
-	vendor/lge/vs840/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so
-
 # Misc services
 PRODUCT_COPY_FILES += \
 	vendor/lge/vs840/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
